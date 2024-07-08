@@ -1,0 +1,33 @@
+
+### 판매 게시글 작성
+POST http://43.202.52.61/post
+Content-Type: application/json
+
+{
+  "title" : "노트북팝니다",
+  "content" : "이제 안쓰는 노트북을 처분하려고해요",
+  "username" : "한효승",
+  "price" : 0
+}
+
+
+### 판매 게시글 전체 리스트 조회
+GET http://43.202.52.61/post
+
+
+### 판매 게시글 전체 리스트 수정
+PUT http://43.202.52.61/post/8
+Content-Type: application/json
+
+{
+  "title" : "수정테스트",
+  "content" : "수정테스트",
+  "username" : "수정",
+  "price" : 10000
+}
+
+
+### 판매 게시글 삭제
+DELETE http://43.202.52.61/post/8
+Content-Type: application/json
+
