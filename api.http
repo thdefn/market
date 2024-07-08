@@ -15,7 +15,7 @@ Content-Type: application/json
 GET http://43.202.52.61/post
 
 
-### 판매 게시글 전체 리스트 수정
+### 판매 게시글 수정
 PUT http://43.202.52.61/post/8
 Content-Type: application/json
 
