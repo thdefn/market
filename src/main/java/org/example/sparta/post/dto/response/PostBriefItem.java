@@ -1,4 +1,4 @@
-package org.example.sparta.post.dto.request;
+package org.example.sparta.post.dto.response;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
